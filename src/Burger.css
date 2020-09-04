@@ -1,0 +1,106 @@
+* {
+  margin-top: 0;
+  padding: 0;
+}
+
+.burger-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Burger {
+  position: relative;
+  margin-top: 20px;
+  padding: 0;
+  height: 300px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.Burger .top-Burger {
+  position: relative;
+  background-color: orange;
+  min-height: 70px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  width: 300px;
+  margin: 0px auto 4px;
+}
+
+.Burger .bottom-Burger {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background-color: orange;
+  min-height: 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 300px;
+  margin-bottom: 4px;
+}
+
+.Burger .salad {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background-color: greenyellow;
+  min-height: 20px;
+  max-height: 20px;
+  border-radius: 20px;
+  width: 320px;
+  margin-bottom: 4px;
+}
+.Burger .bacon {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background-color: red;
+  min-height: 8px;
+  width: 300px;
+  margin-bottom: 4px;
+}
+.Burger .cheese {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background-color: yellow;
+  min-height: 15px;
+  border-radius: 20px;
+  width: 340px;
+  margin-bottom: 4px;
+}
+.Burger .meat {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background-color: brown;
+  min-height: 25px;
+  border-radius: 20px;
+  width: 300px;
+  margin-bottom: 4px;
+}
+
+.buttons {
+  background-color: lightsalmon;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ing {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.add {
+  background-color: brown;
+  color: white;
+}
